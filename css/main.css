@@ -52,6 +52,10 @@ aside {
   padding: 50px;
 }
 
+.tech {
+  padding:10px;
+}
+
 #overlay {
     position: absolute;
     top: 0;
