@@ -133,7 +133,7 @@
             <h3>jQuery</h3>
           </div>
         </div>
-                <div class="col-lg-3 col-md-3 col-xs-6 text-center">
+        <div class="col-lg-3 col-md-3 col-xs-6 text-center">
           <div class="service-box">
             <i class="fab fa-4x fa-react text-primary sr-icons"></i>
             <h3>React</h3>
@@ -159,7 +159,7 @@
         </div>
         <div class="col-lg-3 col-md-3 col-xs-6 text-center">
           <div class="service-box">
-            <i class="fa fa-4x fa-database text-primary sr-icons"></i>
+            <img src="./images/postgresql56.png" />
             <h3>PostgreSQL</h3>
           </div>
         </div>
@@ -184,73 +184,87 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Projects</h2>
+          <h2 class="section-heading">My Work</h2>
           <hr class="primary">
         </div>
       </div>
     </div>
     <div class="container-fluid">
-      <div class="row popup-gallery">
-        <div class="col-lg-6 col-md-6 col-sm-6 projectPadding">
-          <a href="https://buddy-pass.herokuapp.com/" class="portfolio-box">
-            <img src="images/BuddyPass.png" class="img-responsive" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  View Demo Site
-                </div>
-                <div class="project-name">
-                  Buddy Pass
-                </div>
-                <div class="tech">
-                  <i class="fa fa-2x fa-cogs sr-icons"></i>
-                  <i class="fab fa-2x fa-node-js sr-icons"></i>
-                  <i class="fa fa-2x fa-database sr-icons"></i>
-                  <i class="fab fa-2x fa-linkedin sr-icons"></i>                  
-                </div>                
-              </div>
+      <div class="project-cards">
+
+        <div class="card grow">
+          <img src="images/2HouseCalLoginScreen.png" class="img-responsive" alt="2HouseCal">
+          <div class="card-text">
+            <h3>2 House Cal</h3>
+            <div>Designed to keep households in sync with a joint calendar and child information repository. Built using React.js, React Big Calendar, Firebase, and Materialize CSS framework.</div>
+            <div class="card-links">
+              <a href="https://housecal.herokuapp.com/" target="_blank">
+                View Demo Site</a> | 
+              <a href="https://github.com/cmejones/2HouseCal" target="_blank">
+                See the Code</a>
             </div>
-          </a>
+            <div><strong>Tech Stack:</strong></div>
+            <div class="tech">
+              React, Redux, Firebase, Materialize
+            </div>                
+          </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 projectPadding">
-          <a href="https://github.com/cmejones/matchmaker_cooking" class="portfolio-box">
-            <img src="images/matchmakerCooking.png" class="img-responsive" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  View code on GitHub
-                </div>
-                <div class="project-name">
-                  Matchmaker Cooking
-                </div>
-                <div class="tech">
-                  <i class="fab fa-2x fa-js sr-icons"></i>
-                  <i class="fa fa-2x fa-usd sr-icons"></i>
-                  <i class="fab fa-2x fa-bootstrap sr-icons"></i>                 
-                </div>
-              </div>
+
+        <div class="card grow">
+          <img src="images/BuddyPass.png" class="img-responsive" alt="Buddy Pass">
+          <div class="card-text">
+            <h3>Buddy Pass</h3>
+            <div>An internal networking application developed for the purpose of bringing together teams across the company to network and build community.</div>
+            <div class="card-links">
+              <a href="https://buddy-pass.herokuapp.com/" target="_blank">
+              View Demo Site</a> | 
+              <a href="https://github.com/cmejones/Buddy-Pass" target="_blank">
+              See the Code</a>
             </div>
-          </a>
+            <div><strong>Tech Stack:</strong></div>
+            <div class="tech">
+              ExpressJS, NodeJS, PostgreSQL, LinkedIn via PassportJS             
+            </div>                
+          </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 projectPadding">
-          <a href="http://www.voicesfromtheharts.com/" target="_blank" class="portfolio-box">
-            <img src="images/VoicesFromTheHarts.png" class="img-responsive" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  View Live Site
-                </div>
-                <div class="project-name">
-                  Voice Over Talent
-                </div>
-                <div class="tech">
-                  <i class="fab fa-2x fa-drupal sr-icons"></i>
-                  <i class="fab fa-2x fa-cpanel sr-icons"></i>
-                </div>                
-              </div>
+  
+        <div class="card grow">
+          <img src="images/matchmakerCooking.png" class="img-responsive" alt="Matchmaker Cooking">
+          <div class="card-text">
+            <h3>Matchmaker Cooking</h3>
+            <div>Web application that helps users find recipes with specific ingredients. The platform provides a simple interface to enter ingredients and displays results.</div>
+            <div class="card-links">
+              <a href="https://sharp-jang-bc8ca9.netlify.com/" target="_blank">
+              View Demo Site</a> | 
+              <a href="https://github.com/cmejones/matchmaker_cooking" target="_blank">
+              See the Code</a>
             </div>
-          </a>
+            <div><strong>Tech Stack:</strong></div>
+            <div class="tech">
+              JavaScript, jQuery, Bootstrap                
+            </div>
+          </div>
         </div>
+
+        
+        <div class="card grow">
+          <img src="images/VoicesFromTheHarts.png" class="img-responsive" alt="Voices from the Harts">
+          <div class="card-text">
+            <h3>Voices from the Harts</h3>
+            <div>Showcasing the talents of a voice over artist.</div>
+            <div class="card-links">
+              <a href="http://www.voicesfromtheharts.com/" target="_blank">
+              View Live Site</a> | 
+              <a href="https://github.com/cmejones/voices" target="_blank">
+              See the Code</a>
+            </div>
+            <div><strong>Tech Stack:</strong></div>
+            <div class="tech">
+              Drupal, cPanel
+            </div>                
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -259,7 +273,7 @@
     <div class="container text-center">
       <div class="call-to-action">
         <h2>Check me out on Github!</h2>
-        <a href="http://github.com/cmejones" class="btn btn-default btn-xl sr-button">
+        <a href="http://github.com/cmejones" target="_blank" class="btn btn-default btn-xl sr-button">
           <i class="fab fa-3x fa-github"></i>
         </a>
       </div>
